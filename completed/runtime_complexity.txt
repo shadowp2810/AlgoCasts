@@ -44,3 +44,17 @@ Two nested for loops iterating over same collection? O(n^2)
 Two nested for loops interating over differnt collections? O(n*m)
 Sorting? O(n * log(n))
 Searching a sorted array? O(log(n))
+
+
+Data Structures-
+Ways of organizing information with optimal runtime complexity
+for adding or removing records.
+Javascript natively implements several data structures.
+
+Queue
+Like standing in a line. Enqueuing or adding, Dequeuing or removing.
+FIFO or First in First Out.
+Queue's Array equivalent for Add to Queue is array.unshift(),
+and for Remove from Queue is array.pop()
+In JS you might make a Queue Class, and hide acess to all Array methods,
+other than unshift and pop. 
