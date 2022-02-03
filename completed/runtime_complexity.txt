@@ -58,3 +58,7 @@ Queue's Array equivalent for Add to Queue is array.unshift(),
 and for Remove from Queue is array.pop()
 In JS you might make a Queue Class, and hide acess to all Array methods,
 other than unshift and pop. 
+
+Stack 
+Push to add to stack, Pop to remove from stack. 
+FILO or First in Last Out.
