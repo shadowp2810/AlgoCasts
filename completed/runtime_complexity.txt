@@ -62,3 +62,12 @@ other than unshift and pop.
 Stack 
 Push to add to stack, Pop to remove from stack. 
 FILO or First in Last Out.
+
+LinkedLists
+Each Node in a Linked List has Data bucket and a Reference to Next Node.
+Data can be a number, array, object, any js value can be contained in a node.
+Lists have a Head Node at front and a Tail Node at end.
+LinkedList class has no idea how many nodes belong to a linedlist,
+or what data exists in a linkedlist. It only knows about the first node.
+To answer any questsion about it, it need to crawl over the list and count the nodes.
+All the LinkedList class knows is the first node.
